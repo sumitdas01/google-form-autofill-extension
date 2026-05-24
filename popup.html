@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Form Autofill</h2>
+    <label for="jsonData">Save answer map (JSON format):</label>
+    <textarea id="jsonData" rows="12" placeholder='{
+  "Name": "John Doe",
+  "Email": "john@example.com",
+  "Gender": "Male",
+  "Skills": ["Java", "Python"]
+}'></textarea>
+    <div class="actions">
+      <button id="saveBtn">Save Data</button>
+      <button id="autofillBtn">⚡ Trigger</button>
+    </div>
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
