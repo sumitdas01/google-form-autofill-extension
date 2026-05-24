@@ -1,0 +1,19 @@
+# Google Forms Autofill - GitHub hygiene
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs (if any)
+*.log
+
+# Local/secret env (if you ever add one)
+.env
+.env.*
+
+# Build artifacts (in case you add bundling later)
+dist/
+build/
+coverage/
